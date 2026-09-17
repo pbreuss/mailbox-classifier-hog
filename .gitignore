@@ -1,0 +1,78 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache files
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# ML / OpenCV generated artifacts
+*.pkl
+*.pickle
+*.joblib
+
+# Trained models
+models/
+checkpoints/
+
+# Generated output
+output/
+outputs/
+results/
+
+# Large datasets / training images
+data/
+dataset/
+datasets/
+
+# Optional: generated feature files
+features/
+*.npy
+*.npz
+
+# IDEs
+.idea/
+
+# OS thumbnails
+Thumbs.db
