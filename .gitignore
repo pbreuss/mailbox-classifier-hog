@@ -76,3 +76,5 @@ features/
 
 # OS thumbnails
 Thumbs.db
+
+mailbox_classifier_venv
